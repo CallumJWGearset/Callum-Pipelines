@@ -128,32 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
-        <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Quantity</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Amount</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Mrr</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Asset</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>StartDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>EndDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Quantity</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Amount</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Mrr</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Asset</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>StartDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>EndDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Quantity</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Amount</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Mrr</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Asset</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Quantity</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Amount</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Mrr</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts />
+    <sharingModel>Private</sharingModel>
 </CustomObject>
