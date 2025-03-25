@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>pb_Acc</name>
+        <label>pb Acc</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <actionName>choosePricebook</actionName>
+        <actionType>choosePricebook</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>parentEntityId</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>62.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Case clear up {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case clear up</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>pb_Acc</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>Delete</recordTriggerType>
+        <triggerType>RecordBeforeDelete</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
